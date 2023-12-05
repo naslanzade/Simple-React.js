@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,100&display=swap');
+
+.about-part {
+    text-align: center;
+    padding: 65px;
+}
+
+
+.text .heading h2 {
+    font-size: 30px;
+    margin-bottom: 8px;
+    line-height: 1.2;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+.text .title h6 {
+    font-size: 15px;
+    margin-bottom: 8px;
+    line-height: 1.2;
+    color: #6e6e6e;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.card-part {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 10px;
+    padding: 10px;
+      
+}
+
+
+.card h5 {
+    font-size: 20px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    
+}
+
+
+.card p{
+    margin-top: 0;
+    margin-bottom: 16px;
+    color: #6e6e6e;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+.card a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #97a3be;
+    font-weight: 500;
+    transition: color .5s ease-in-out;
+}
+
+
+.card a:hover{
+    color: red;
+    cursor: pointer;
+}
+
+
+.card .img-icon{
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+}
+
+.card .img-icon:hover{
+    transform: scale(1.1);
+}
