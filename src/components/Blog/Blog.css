@@ -33,12 +33,21 @@
 
 
 
-.card-part-blog .card{
-    position: relative;
+.card-part-blog .card{    
     padding: 75px 0;   
     width: 350px;
     height: 85%;
-    
+     
+}
+
+
+.card .img-case{
+    transition: all .8s ease-in-out;
+    cursor: pointer;
+}
+
+.card .img-case:hover{
+    transform: scale(1.1);
 }
 
 
@@ -79,7 +88,7 @@
     }
 
     .card-part-blog .card{
-        position: relative;
+       
         padding: 75px 0;   
         width: 190px;
         height: 75%;        

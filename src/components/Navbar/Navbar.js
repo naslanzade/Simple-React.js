@@ -39,10 +39,10 @@ function Navbar() {
                     </li>
                     <li className='nav-item'>
                         <a href="#blog" className='item' onClick={closeMobileMenu}>Blog</a>
-                    </li>
+                    </li>     
                     <li className='nav-item'>
-                        <a href="#testimonial" className='item' onClick={closeMobileMenu}>Testimonial</a>
-                    </li>
+                        <a href="#contact" className='item' onClick={closeMobileMenu}>Contact us</a>
+                    </li>                
                 </ul>
             </nav>
             <div className="part" id='home'>

@@ -19,7 +19,7 @@ function Blog() {
                 <div className='card-part-blog'>
                     <div className='card-blog'>
                         <div className='card blue'>
-                            <img src={first} className='img-case' />
+                            <img src={first} className='img-case blue' />
                         </div>
                         <h6>Online Marketing</h6>
                         <p>Seo, Marketing</p>

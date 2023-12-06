@@ -9,8 +9,8 @@
     font-size: 15px;
     position: sticky;
     top: 0;
+    
 }
-
 
 .navbar.active{
     background-color: #fff;
@@ -137,7 +137,6 @@
     background-color: #fc7341;
     border: 2px solid #fc7341;
     font-size: 14px;
-    font-family: Iner, sans-serif;
     padding: 10px 20px;
     outline: none;
     transition: all .5s ease-in-out;
