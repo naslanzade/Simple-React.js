@@ -75,3 +75,17 @@
 .card .img-icon:hover{
     transform: scale(1.1);
 }
+
+
+@media screen and (min-width:0px) and (max-width:576px){
+    .card-part {
+        display: inline;
+        grid-template-columns: repeat(3, auto);
+        grid-gap: 10px;
+        padding: 10px;
+          
+    }
+}
+
+
+
